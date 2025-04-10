@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -105,6 +105,35 @@
       background: #128C7E;
     }
 
+    .gallery-section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .gallery-section h2 {
+      color: #00ffff;
+      margin-bottom: 20px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00ffff;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+
     .contact-section {
       text-align: center;
       margin: 60px 20px;
@@ -160,13 +189,22 @@
     </div>
   </div>
 
+  <div class="gallery-section" id="gallery">
+    <h2>Our Gallery</h2>
+    <div class="gallery-grid">
+      <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/urban-t-shirt-design-614_1080x_pbjxnu.jpg" alt="Gallery Image 1">
+      <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/image_3_qwbkmd.jpg" alt="Gallery Image 2">
+      <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/6b9e4944-ff98-4921-9989-afb5bf2518ca1733547766499-DENIMLOOK-Men-Relaxed-Fit-Stretchable-Baggy--Jeans-275173354-2_1_w3mivu.jpg" alt="Gallery Image 3">
+    </div>
+  </div>
+
   <div class="contact-section">
     <h2>Contact Us</h2>
     <p>📞 +91 9103594759</p>
     <p>Scan to Chat on WhatsApp:</p>
     <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://wa.me/919103594759&size=200x200" alt="QR Code">
     <div>
-      
+      <img class="profile-img" src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744286893/IMG_20250403_185247_xzlxll.jpg" alt="Muzamil">
     </div>
   </div>
 
