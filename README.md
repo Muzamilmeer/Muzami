@@ -165,7 +165,7 @@
 
 <section class="gallery-section" id="gallery">
   <div class="gallery-image">
-    <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744286893/IMG_20250403_185247_xzlxll.jpg" alt="Gallery 1">
+    <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744298764/PhonePeQR_J_K_Grameen_Bank_-_03580_lweegr.png" alt="Gallery 1">
   </div>
 </section>
 
