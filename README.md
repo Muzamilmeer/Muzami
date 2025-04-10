@@ -166,7 +166,7 @@
     <p>Scan to Chat on WhatsApp:</p>
     <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://wa.me/919103594759&size=200x200" alt="QR Code">
     <div>
-      <img class="profile-img" src="https://res.cloudinary.com/dxj
+      
     </div>
   </div>
 
