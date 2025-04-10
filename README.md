@@ -185,7 +185,7 @@
 <section class="payment-section" id="payment">
   <h2>Pay with PhonePe</h2>
   <p style="text-align:center;">Scan to Pay</p>
-  <"https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744298764/PhonePeQR_J_K_Grameen_Bank_-_03580_lweegr.png" alt="PhonePe QR">
+  <img scr="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744298764/PhonePeQR_J_K_Grameen_Bank_-_03580_lweegr.png" alt="PhonePe QR">
 </section>
 
 <footer>
