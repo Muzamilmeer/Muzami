@@ -1,103 +1,96 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Muzamil Streetwear</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
     body {
       font-family: 'Orbitron', sans-serif;
-      margin: 0;
       background: #111;
-      color: white;
+      color: #fff;
     }
 
-    nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    header {
       background: linear-gradient(135deg, #000000, #1f1f1f);
-      padding: 20px 30px;
-    }
-
-    .nav-logo {
+      padding: 20px;
       display: flex;
       align-items: center;
-      gap: 15px;
     }
 
-    .nav-logo img {
-      height: 50px;
-      width: 50px;
-      border-radius: 50%;
-      object-fit: cover;
-      box-shadow: 0 0 10px #00ffff;
+    .logo-img {
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      margin-right: 15px;
     }
 
-    .nav-logo span {
-      font-size: 24px;
+    .logo-text {
+      font-size: 32px;
       color: #00ffff;
       text-shadow: 0 0 5px #00ffff;
     }
 
-    .link-box {
+    nav {
       text-align: center;
-      margin-top: 30px;
+      margin: 20px 0;
     }
 
-    .link-box a {
-      background: #00ffff;
-      color: #000;
-      padding: 15px 30px;
-      border-radius: 30px;
+    nav a {
+      margin: 0 15px;
+      color: #00ffff;
       text-decoration: none;
       font-size: 18px;
-      font-weight: bold;
-      box-shadow: 0 0 15px #00ffff;
-      transition: 0.3s ease-in-out;
+      transition: 0.3s;
     }
 
-    .link-box a:hover {
-      background: #008080;
-      color: white;
-      box-shadow: 0 0 25px #00ffff;
+    nav a:hover {
+      color: #fff;
     }
 
-    .product-section {
+    .product-section, .gallery-section, .about-section, .faq-section, .payment-section {
       max-width: 1000px;
       margin: 40px auto;
       padding: 0 20px;
     }
 
-    .product {
+    .product, .gallery-image {
       background: #222;
-      border-radius: 10px;
       padding: 20px;
       margin-bottom: 30px;
-      box-shadow: 0 0 15px rgba(0,255,255,0.1);
       text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,255,255,0.2);
     }
 
-    .product img {
-      width: 100%;
+    .product img, .gallery-image img {
       max-width: 300px;
+      width: 100%;
       border-radius: 10px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
 
     .product h3 {
-      margin: 0 0 10px;
       color: #00ffff;
+      margin-bottom: 10px;
     }
 
     .product a {
+      display: inline-block;
       background: #25D366;
       color: white;
       padding: 10px 20px;
-      text-decoration: none;
       border-radius: 30px;
-      display: inline-block;
+      text-decoration: none;
       transition: background 0.3s ease;
     }
 
@@ -105,108 +98,99 @@
       background: #128C7E;
     }
 
-    .gallery-section {
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 0 20px;
-      text-align: center;
+    .faq {
+      background: #1c1c1c;
+      padding: 20px;
+      border-radius: 10px;
     }
 
-    .gallery-section h2 {
+    .faq h2, .payment-section h2 {
       color: #00ffff;
       margin-bottom: 20px;
-    }
-
-    .gallery-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .gallery-grid img {
-      width: 100%;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #00ffff;
-      transition: transform 0.3s ease;
-    }
-
-    .gallery-grid img:hover {
-      transform: scale(1.05);
-    }
-
-    .contact-section {
       text-align: center;
-      margin: 60px 20px;
     }
 
-    .contact-section img {
-      width: 200px;
+    .faq p {
+      margin: 10px 0;
+    }
+
+    .payment-section img {
+      display: block;
+      margin: 20px auto;
+      max-width: 200px;
       border-radius: 10px;
-      margin-top: 20px;
-      box-shadow: 0 0 15px #00ffff;
+      box-shadow: 0 0 20px #00ffff;
     }
 
-    .contact-section .profile-img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      margin-top: 20px;
-      object-fit: cover;
-      box-shadow: 0 0 20px #00ffff;
+    footer {
+      text-align: center;
+      margin: 50px 0 20px;
+      color: #aaa;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
 
-  <nav>
-    <div class="nav-logo">
-      <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744286893/IMG_20250403_185247_xzlxll.jpg" alt="Muzamil Logo">
-      <span>Muzamil Streetwear</span>
-    </div>
-  </nav>
+<header>
+  <img class="logo-img" src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744286893/IMG_20250403_185247_xzlxll.jpg" alt="Muzamil Logo">
+  <div class="logo-text">Muzamil Streetwear</div>
+</header>
 
-  <div class="link-box">
-    <a href="https://example.com/muzamil-streetwear">Visit Store</a>
+<nav>
+  <a href="#products">Products</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#about">About</a>
+  <a href="#faq">FAQ</a>
+  <a href="#payment">Pay</a>
+</nav>
+
+<section class="product-section" id="products">
+  <div class="product">
+    <h3>Urban T-Shirt - ₹499</h3>
+    <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/urban-t-shirt-design-614_1080x_pbjxnu.jpg" alt="Urban T-Shirt">
+    <a href="https://wa.me/919103594759?text=Hi%2C%20I%20want%20to%20buy%20Urban%20T-Shirt">Buy on WhatsApp</a>
   </div>
-
-  <div class="product-section">
-    <div class="product">
-      <h3>Urban T-Shirt - ₹499</h3>
-      <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/urban-t-shirt-design-614_1080x_pbjxnu.jpg" alt="Urban T-Shirt">
-      <a href="https://wa.me/919103594759?text=Hi%2C%20I%20want%20to%20buy%20Urban%20T-Shirt%20from%20Muzamil%20Streetwear" target="_blank">Buy on WhatsApp</a>
-    </div>
-
-    <div class="product">
-      <h3>Jordan Shoes - ₹1499</h3>
-      <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/image_3_qwbkmd.jpg" alt="Jordan Shoes">
-      <a href="https://wa.me/919103594759?text=Hi%2C%20I%20want%20to%20buy%20Jordan%20Shoes%20from%20Muzamil%20Streetwear" target="_blank">Buy on WhatsApp</a>
-    </div>
-
-    <div class="product">
-      <h3>Baggy Jeans - ₹799</h3>
-      <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/6b9e4944-ff98-4921-9989-afb5bf2518ca1733547766499-DENIMLOOK-Men-Relaxed-Fit-Stretchable-Baggy--Jeans-275173354-2_1_w3mivu.jpg" alt="Baggy Jeans">
-      <a href="https://wa.me/919103594759?text=Hi%2C%20I%20want%20to%20buy%20Baggy%20Jeans%20from%20Muzamil%20Streetwear" target="_blank">Buy on WhatsApp</a>
-    </div>
+  <div class="product">
+    <h3>Jordan Shoes - ₹1499</h3>
+    <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/image_3_qwbkmd.jpg" alt="Jordan Shoes">
+    <a href="https://wa.me/919103594759?text=Hi%2C%20I%20want%20to%20buy%20Jordan%20Shoes">Buy on WhatsApp</a>
   </div>
-
-  <div class="gallery-section" id="gallery">
-    <h2>Our Gallery</h2>
-    <div class="gallery-grid">
-      <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/urban-t-shirt-design-614_1080x_pbjxnu.jpg" alt="Gallery Image 1">
-      <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/image_3_qwbkmd.jpg" alt="Gallery Image 2">
-      <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/6b9e4944-ff98-4921-9989-afb5bf2518ca1733547766499-DENIMLOOK-Men-Relaxed-Fit-Stretchable-Baggy--Jeans-275173354-2_1_w3mivu.jpg" alt="Gallery Image 3">
-    </div>
+  <div class="product">
+    <h3>Baggy Jeans - ₹799</h3>
+    <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/6b9e4944-ff98-4921-9989-afb5bf2518ca1733547766499-DENIMLOOK-Men-Relaxed-Fit-Stretchable-Baggy--Jeans-275173354-2_1_w3mivu.jpg" alt="Baggy Jeans">
+    <a href="https://wa.me/919103594759?text=Hi%2C%20I%20want%20to%20buy%20Baggy%20Jeans">Buy on WhatsApp</a>
   </div>
+</section>
 
-  <div class="contact-section">
-    <h2>Contact Us</h2>
-    <p>📞 +91 9103594759</p>
-    <p>Scan to Chat on WhatsApp:</p>
-    <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://wa.me/919103594759&size=200x200" alt="QR Code">
-    <div>
-  
-    </div>
+<section class="gallery-section" id="gallery">
+  <div class="gallery-image">
+    <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744286893/IMG_20250403_185247_xzlxll.jpg" alt="Gallery 1">
   </div>
+</section>
+
+<section class="about-section" id="about">
+  <h2>About Us</h2>
+  <p style="text-align:center; max-width: 800px; margin:auto;">Muzamil Streetwear is your go-to brand for the freshest urban styles. We bring you quality fashion with a bold neon theme and a modern edge, delivered across India.</p>
+</section>
+
+<section class="faq-section" id="faq">
+  <div class="faq">
+    <h2>FAQ</h2>
+    <p><strong>Q:</strong> How to order?<br><strong>A:</strong> Click the WhatsApp button under a product.</p>
+    <p><strong>Q:</strong> Do you deliver all over India?<br><strong>A:</strong> Yes, PAN India delivery.</p>
+  </div>
+</section>
+
+<section class="payment-section" id="payment">
+  <h2>Pay with PhonePe</h2>
+  <p style="text-align:center;">Scan to Pay</p>
+  <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1712733567/phonepe-qr_zr4rmo.jpg" alt="PhonePe QR">
+</section>
+
+<footer>
+  &copy; 2025 Muzamil Streetwear. All rights reserved.
+</footer>
 
 </body>
 </html>
