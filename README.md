@@ -184,7 +184,20 @@
 <section class="payment-section" id="payment">
   <h2>Pay with PhonePe</h2>
   <p style="text-align:center;">Scan to Pay</p>
-      <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744298764/PhonePeQR_J_K_Grameen_Bank_-_03580_lweegr.png" alt="Gallery 1" alt="PhonePe QR">
+  <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744298764/PhonePeQR_J_K_Grameen_Bank_-_03580_lweegr.png" alt="PhonePe QR">
+</section>
+
+<!-- NEW FOLLOW ME SECTION -->
+<section style="text-align: center; margin: 40px 0;">
+  <h2 style="color: #00ffff;">Follow Me</h2>
+  <div style="margin-top: 20px;">
+    <a href="https://www.instagram.com/prince_____muzamil" target="_blank" style="margin: 0 15px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" width="40" style="vertical-align: middle; filter: drop-shadow(0 0 5px #00ffff); transition: transform 0.3s;">
+    </a>
+    <a href="https://www.snapchat.com/add/meir-muzamil?share_id=C6eTkzgpcVo&locale=en-US" target="_blank" style="margin: 0 15px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/3670/3670055.png" alt="Snapchat" width="40" style="vertical-align: middle; filter: drop-shadow(0 0 5px #00ffff); transition: transform 0.3s;">
+    </a>
+  </div>
 </section>
 
 <footer>
@@ -193,31 +206,3 @@
 
 </body>
 </html>
-About
-No description, website, or topics provided.
-Resources
- Readme
- Activity
-Stars
- 0 stars
-Watchers
- 1 watching
-Forks
- 0 forks
-Releases
-No releases published
-Create a new release
-Packages
-No packages published
-Publish your first package
-Deployments
-13
- github-pages 1 minute ago
-+ 12 deployments
-Footer
-© 2025 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
