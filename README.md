@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -229,4 +229,4 @@ footer {
     &copy; 2025 Muzamil Ahmad Mir. All rights reserved.
   </footer>
 </body>
-</html>
+
