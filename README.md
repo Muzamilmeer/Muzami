@@ -151,7 +151,7 @@ footer {
 <body>
   <header>
     <div class="logo-section">
-      <img class="logo-img" src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744286893/IMG_20250403_185247_xzlxll.jpg" alt="Muzamil Logo">
+      <img class="logo-img" src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744384921/IMG_20250411_202120_wx6x6n.png" alt="Muzamil Logo">
       <div class="logo-text">Muzamil Streetwear</div>
     </div>
     <div class="social-icons">
