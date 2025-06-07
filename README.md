@@ -193,7 +193,7 @@ footer {
   <h2>About Me</h2>
   <p style="text-align: center; max-width: 800px; margin: auto;">Hey, I'm Muzamil — a passionate software developer who turns coffee into clean code. I build sleek apps, solve real-world problems, and love bringing ideas to life through tech. Currently leveling up my skills, one project at a time.</p>
 </section>
-
+<center>
 <section id="skills" class="skills">
   <h2>Skills</h2>
   <ul>
@@ -212,8 +212,9 @@ footer {
     <li>Weather App</li>
     <li>More coming soon...</li>
   </ul>
-</section>
 
+</section>
+</center>
 <section id="payment" class="payment-section">
   <h2>Scan to Pay (PhonePe)</h2>
   <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744298764/PhonePeQR_J_K_Grameen_Bank_-_03580_lweegr.png" alt="Scanner">
