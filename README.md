@@ -175,7 +175,7 @@ footer {
       <div class="product-grid">
         <div class="product">
           <h3>Urban T-Shirt - ₹499</h3>
-          <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744286893/IMG_20250403_185247_xzlxll.jpg" alt="T-Shirt">
+          <img src="https://res.cloudinary.com/dxjkbpmgm/image/upload/v1744284703/urban-t-shirt-design-614_1080x_pbjxnu.jpg" alt="T-Shirt">
           <a href="https://wa.me/919103594759?text=Hi%2C%20I%20want%20to%20buy%20Urban%20T-Shirt">Buy</a>
         </div>
         <div class="product">
